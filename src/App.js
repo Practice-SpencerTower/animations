@@ -12,6 +12,10 @@ const App = () => {
         setModalIsOpen(true);
     };
 
+    const closeModal = () => {
+        setModalIsOpen(false);
+    };
+
     return (
         <div className="App">
             <h1>React Animations</h1>
